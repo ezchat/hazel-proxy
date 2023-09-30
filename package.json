@@ -23,11 +23,13 @@
   },
   "homepage": "https://github.com/retrixe/hazel-proxy#readme",
   "dependencies": {
-    "fastify": "^4.23.2"
+    "fastify": "^4.23.2",
+    "jsonwebtoken": "^9.0.2",
+    "undici": "^5.25.2"
   },
   "devDependencies": {
-    "@tsconfig/esm": "^1.0.4",
     "@tsconfig/node20": "^20.1.2",
+    "@types/jsonwebtoken": "^9",
     "@types/node": "^20.7.1",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
